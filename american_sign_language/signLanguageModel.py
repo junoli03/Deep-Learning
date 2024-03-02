@@ -39,7 +39,7 @@ x_train = x_train / 255
 x_valid = x_valid / 255
 
 # Category the labels
-num_classes = 26
+num_classes = 24
 # avoid running multiple times
 if not y_train.shape[-1] == num_classes:
     y_train = keras.utils.to_categorical(y_train, num_classes)
