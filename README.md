@@ -36,17 +36,24 @@ This will remove the "my_env" environment from your system.
 # Set up the tensorflow gpu
 
 ```
-pip install tensorflow-gpu==2.6.0
+conda install tensorflow-gpu==2.6.0
 ```
 
 To downgrade the version of keras, as it may be error with different version with tensorflow-gpu and keras.
 
 ```
-pip install keras==2.6.0
+conda install keras==2.6.0
 ```
 
 Install the Protobuf with version 3.20.0
 
 ```
-pip install protobuf==3.20.0
+conda install protobuf==3.20.0
 ```
+
+Install the numpy with version 1.19.5
+
+```
+conda install numpy==1.19.5
+```
+
